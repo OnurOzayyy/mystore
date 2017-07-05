@@ -13,3 +13,6 @@ python manage.py startapp shop
 #pillow - pillow-4.2.0
 pip install pillow
 
+#create super user
+python manage.py createsuperuser
+
