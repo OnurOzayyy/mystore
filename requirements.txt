@@ -1,0 +1,11 @@
+# virtual enviroment
+python3 -m venv MYSTORE_ENV
+
+#Django - Django-1.11.3
+pip install Django
+
+#start the project
+django-admin.py startproject mystore
+
+#start an app
+python manage.py startapp shop
