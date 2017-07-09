@@ -16,3 +16,8 @@ pip install pillow
 #create super user
 python manage.py createsuperuser
 
+#Install Celery -- celery-4.0.2
+pip install celery
+
+#rabbitmq --rabbitmq 3.6.9_1
+brew install rabbitmq
