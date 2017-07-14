@@ -4,7 +4,7 @@ from django.conf import settings
 
 #set the default django settings module for the celery
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mystore.settings')
-
+#create an instance of the application
 app = Celery('mystore')
 
 app.config_from_object('django.conf:settings')
