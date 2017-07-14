@@ -21,3 +21,6 @@ pip install celery
 
 #rabbitmq --rabbitmq 3.6.9_1
 brew install rabbitmq
+
+#install paypal django-paypal-0.3.6
+pip install django-paypal
